@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  color: #0c0c0c;
+  color: #333333; /* korábbi: #0c0c0c */
   background-color: #ffffff;
 }
 
@@ -82,15 +82,11 @@ body {
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 7px 20px;
   margin: 10px 15px;
-  color: #000000;
+  color: #333333; /* korábbi: #000000 */
   text-align: center;
   border-radius: 35px;
   text-transform: uppercase;
   font-size: 15px;
-}
-
-/* Navbar gombok átmeneti beállítása */
-.custom_nav-container .navbar-nav .nav-item .nav-link {
   transition: all 0.3s ease;
 }
 
@@ -99,8 +95,8 @@ body {
   filter: brightness(0.9);           /* Finom sötétítés */
   outline: 2px solid #5625a1;          /* Outline */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Árnyék */
-  background-color: transparent !important; /* Eltávolítja a korábbi háttérváltást */
-  color: inherit !important;          /* Megtartja az eredeti szöveg színt */
+  background-color: transparent !important;
+  color: inherit !important;
 }
 
 a,
@@ -149,7 +145,7 @@ a:focus {
 .navbar-brand span {
   font-size: 22px;
   font-weight: 700;
-  color: #4b208c;
+  color: #4b208c; /* Márka szín, változatlanul hagyva */
 }
 
 .custom_nav-container {
@@ -164,9 +160,6 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
-}
-
-.custom_nav-container .navbar-toggler {
   padding: 0;
   width: 37px;
   height: 42px;
@@ -221,7 +214,7 @@ a:focus {
           align-items: center;
   position: relative;
   z-index: 2;
-  color: #3b3a3a;
+  color: #3b3a3a; /* Ezt nem cseréltem, mivel nem teljesen fekete */
   padding-bottom: 90px;
 }
 
@@ -232,7 +225,7 @@ a:focus {
 }
 
 .slider_section .detail_box {
-  color: #000000;
+  color: #333333; /* korábbi: #000000 */
 }
 
 .slider_section .detail_box h1 {
@@ -253,10 +246,7 @@ a:focus {
   margin-top: 35px;
 }
 
-/* .slider_section .detail_box a:hover {
-  background-color: #5625a1;
-  color: #ffcd05;
-} */
+/* slider_section .detail_box a:hover { ... } - eredeti kommentben maradt */
 
 .slider_section .img_container {
   border: 7px solid #7b57b2;
@@ -268,9 +258,6 @@ a:focus {
   width: 100%;
   position: unset;
 }
-
-
-
 
 .slider_section .img_container .img-box img {
   width: 100%;
@@ -325,13 +312,13 @@ a:focus {
           justify-content: center;
   padding: 35px 0;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 .service_section .service_container .box {
   margin: 25px 1%;
   -ms-flex-preferred-size: 31%;
-      flex-basis: 31%;
+          flex-basis: 31%;
   padding: 35px 25px 25px;
   border-radius: 15px;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
@@ -364,7 +351,7 @@ a:focus {
 }
 
 .service_section .service_container .box .detail-box h5 {
-  color: #2e0e5f;
+  color: #2e0e5f; /* marad a lila árnyalat, nem változtatjuk */
   font-weight: 600;
   position: relative;
 }
@@ -508,7 +495,7 @@ a:focus {
   padding-left: 25px;
   background-color: transparent;
   outline: none;
-  color: #101010;
+  color: #333333; /* korábbi: #101010 */
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16);
 }
@@ -539,9 +526,8 @@ a:focus {
   padding: 12px 45px;
   background-color: #ffcd05;
   color: #5625a1;
-  border-radius: 0px;
-  margin-top: 35px;
   border-radius: 6px;
+  margin-top: 35px;
 }
 
 /* .contact_section button:hover {
@@ -579,11 +565,10 @@ a:focus {
 .about_section .detail-box a:hover,
 .contact_section button:hover,
 .info_section .info_form form button:hover {
-  filter: brightness(0.9);           /* Sötétítés */
-  outline: 2px solid #5625a1;          /* Finom outline */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Finom árnyék */
+  filter: brightness(0.9);
+  outline: 2px solid #5625a1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 
 /* info section */
 .info_section {
@@ -645,7 +630,7 @@ a:focus {
       -ms-flex: 2.5;
           flex: 2.5;
   outline: none;
-  color: #000000;
+  color: #333333; /* korábbi: #000000 */
   min-height: 42.4px;
   padding-left: 15px;
 }
@@ -718,14 +703,14 @@ a:focus {
 }
 
 .footer_section p {
-  color: #222222;
+  color: #333333; /* korábbi: #222222 */
   margin: 0 auto;
   text-align: center;
   padding: 20px;
 }
 
 .footer_section p a {
-  color: #222222;
+  color: #333333; /* korábbi: #222222 */
 }
 /*# sourceMappingURL=style.css.map */
 
