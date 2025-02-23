@@ -4,6 +4,14 @@ body {
   background-color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  p, h1, h2, h3, h4, h5, h6, a {
+    word-break: keep-all;
+    hyphens: none;
+  }
+}
+
+
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -231,6 +239,10 @@ a:focus {
 .slider_section .detail_box h1 {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.detail_box h1{
+  font-size: 2em;
 }
 
 .slider_section .detail_box p {
